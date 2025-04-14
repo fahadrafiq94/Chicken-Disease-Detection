@@ -23,7 +23,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "reserach/trials.ipynb"
+    "reserach/trials.ipynb",
+    "templates/index.html"
 ]
 
 
@@ -47,4 +48,4 @@ for filepath in list_of_files:
     else:
         logging.info(f"File already exists: {filename}")
 
-    
+     
